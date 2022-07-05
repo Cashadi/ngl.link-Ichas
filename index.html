@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ngl.link</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100%;
+        height: auto;
+      }
+      .pesan {
+        width: 500px;
+        height: auto;
+        background-image: linear-gradient(360deg, #ff8d10, #ec1187);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        display: block;
+        border-radius: 20px;
+      }
+      h1 {
+        margin-top: 30px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+      }
+      .crush {
+        padding: 20px;
+        text-align: center;
+      }
+      input {
+        width: 250px;
+        height: 50px;
+        margin-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-radius: 20px;
+        border: none;
+      }
+      input[placeholder='Crush?'] {
+        text-align: center;
+        font-size: 15px;
+        color: black;
+        /* text-transform: uppercase; */
+      }
+      button {
+        width: 300px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 70px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        font-size: 15px;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      @media screen and (max-width: 1000px) {
+        .pesan,
+        button {
+          width: 80%;
+          padding: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="pesan">
+        <h1>Kirim saya pesan tanpa diketahui!</h1>
+        <div class="crush">
+          <input type="text" placeholder="Crush?" />
+        </div>
+      </div>
+      <button type="submit">Kirim</button>
+    </div>
+  </body>
+</html>
